@@ -19,11 +19,9 @@
 
 #nav-alert {
   text-align: center;
-  /*margin-left: 20%;*/
   width: 60%;
   display: inline;
   margin-left: 10%;
-  /*padding-left: 10%;*/
   font-size: 2em;
   font-family: 'Oswald', sans-serif;
 }
@@ -42,160 +40,34 @@
 }
 
 #row1 {
-  background-image: url("../images/venice.png");
+  background-image: url("../images/skyline.png");
   background-size: cover;
   background-position: center center;
   margin-left: 0px;
   margin-top: 25px;
 }
 
-#row1-text {
-  margin-top: 6%;
-}
-
-#start-textbox1 {
-  width: 70%;
-  margin-left: 15%;
-  text-align: center;
-}
-
 #start-textbox1 p {
-  font-size: 2.5em;
+  font-size: 2em;
   font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: white;
 }
 
 #logo {
   text-align: center;
-  font-size: 10em;
+  font-size: 11em;
   margin-top: 6%;
 }
 
 #logo a {
-  color: black;
+  color: white;
   font-family: 'Nova Round', cursive;
 }
 
 #logo a:hover {
-  color: white;
+  /*color: white;*/
   text-decoration: none;
-}
-
-#row2 {
-  background-image: url("../images/lifeguard.png");
-  background-size: cover;
-  background-position: center center;
-}
-
-#start-textbox2 {
-  width: 90%;
-  margin: 10% 5%;
-  text-align: center;
-}
-
-.tutorial-box {
-  width: 30%;
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.7);
-  height: 300px;
-  font-size: 1.5em;
-  padding-top: 1%;
-  border-radius: 5px;
-}
-
-#tutorial-3 {
-  float: right;
-  position: relative;
-}
-
-#tutorial-2 {
-  margin-top: 15%;
-  position: relative;
-}
-
-#tutorial-1 {
-  float: left;
-  position: relative;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-#colder {
-  float: right;
-  display: inline-block !important;
-  margin-right: 10%;
-  position: relative;
-}
-
-#hotter {
-  margin-left: 10%;
-  float: left;
-  position: relative;
-  display: inline-block !important;
-}
-
-#hot-map {
-  width: 100px;
-  height: 100px;
-}
-
-#cold-map {
-  width: 100px;
-  height: 100px;
-}
-
-#marker-img {
-  position: relative;
-  margin-top: 3%;
-  width: 35%;
-}
-
-#city-img {
-  position: relative;
-  width: 65%;
-}
-
-#row3 {
-  background-image: url("../images/griffith.png");
-  margin-left: 0px;
-  background-size: cover;
-  background-position: center center;
-  /*height: 680px;*/
-}
-
-#start-textbox3 {
-  font-size: 4em;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  text-align: center;
-  margin-top: 7%;
-}
-
-#start-textbox3 a {
-  color: black;
-}
-
-#start-textbox3 a:hover {
-  color: white;
-}
-
-#textbox3-signin{
-  width: 30%;
-  float: left;
-}
-
-#textbox3-signup{
-  width: 30%;
-  margin-left: 25%;
-  clear: both;
-}
-
-#textbox3-getstarted{
-  clear: both;
-  width: 50%;
-  float: right;
-}
-
-#get-started {
-  font-size: 70px;
 }
 
 /* map.html styling */
@@ -298,109 +170,23 @@ and (max-width : 1150px) {
 
 @media only screen 
 and (max-width : 200px) {
+
   #logo {
     font-size: 100px;
   }
+
 }
 
 @media only screen 
 and (max-width : 768px) {
-  #signin-container {
-    width: 70%;
-    margin: 20% 15% 20% 15%;
-  }
-  #signup-container {
-    width: 60%;
-    margin: 20% 20% 20% 20%;
-  }
+
   #logo {
     margin-top: 15%;
     font-size: 6em;
   }
 
-  .tutorial-box {
-    clear: both;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-    height: 160px;
-    font-size: 1.25em;
-  }
-
-  #tutorial-2 {
-    margin-top: 5%;
-  }
-
-  #tutorial-3 {
-    margin-top: 5%;
-  }
-
-  #marker-img {
-    margin-top: 1%;
-    width: 10%;
-  }
-
-  #city-img {
-    width: 20%;
-  } 
-
   #nav-alert {
     font-size: 1.4em;
     width: 100%;
-  }
-}
-
-@media only screen 
-and (max-width : 905px) {
-  #hotter {
-    margin-top: -15%;
-    font-size: 2em;
-    color: #E80000;
-    font-family: 'Oswald', sans-serif;
-  }
-
-  #colder {
-    margin-top: -15%;
-    font-size: 2em;
-    color: #0066CC;
-    font-family: 'Oswald', sans-serif;
-  }
-
-  #hot-map {
-    display: none;
-  }
-
-  #cold-map {
-    display: none;
-  }
-
-  #city-img {
-    width: 100px;
-  }
-
-  #marker-img {
-    width: 65px;
-  }
-  
-  #textbox3-signin{
-    font-size: 0.75em;
-    padding-top: 10%;
-  }
-
-  #textbox3-signup{
-    font-size: 0.75em;
-    width: 50%;
-    margin-left: 10%;
-    padding-top: 7%;
-  }
-
-  #textbox3-getstarted{
-    font-size: .9em;
-    width: 70%;
-    margin-right: 1%;
-  }
-
-  #get-started {
-    font-size: 70px;
   }
 }
